@@ -1,0 +1,1 @@
+function main:area/wall/init {direction: "x"}
