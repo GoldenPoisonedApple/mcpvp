@@ -16,4 +16,4 @@ $scoreboard players operation install_$(direction) Wall += #1 Wall
 $execute store result storage minecraft:wall Install.$(direction) int 1 run scoreboard players get install_$(direction) Wall
 
 # 終了判定
-$execute if score install_$(direction) Wall > install_end Wall run scoreboard players set is_finish Wall 1
+$execute if score install_$(direction) Wall > install_end Wall run function main:area/wall/init with storage minecraft:setting Wall
