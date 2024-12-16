@@ -19,3 +19,9 @@ $summon armor_stand $(x) $(y) $(z) {Tags:["area_basis"],Marker:1b,Invisible:1b,N
 $worldborder center $(x) $(z)
 # ボーダー範囲設定
 $worldborder set $(range)
+
+# 各初期化
+# Wall
+function main:area/wall/init with storage minecraft:setting Wall
+# Obsidian
+function main:area/obsidian/init with storage minecraft:setting
