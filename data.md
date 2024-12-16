@@ -13,3 +13,5 @@
   - z : int
   - y : int (fillの高さ)
   - block : string
+  - load_x
+  - load_y
