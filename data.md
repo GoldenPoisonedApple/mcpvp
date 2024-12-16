@@ -5,9 +5,8 @@
   - y : double
   - z : double
   - range : int
-- Wall -> [area/wall/init.mcfunction]
+- Wall -> [area/wall/init.mcfunction] [area/wall/main.mcfunction]
   - direction : x or z
-	- range : int
 ### minecraft:wall
 - InstallPos
   - x : int

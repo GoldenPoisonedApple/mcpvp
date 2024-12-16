@@ -5,12 +5,6 @@
 # $z (d)
 # $range
 
-## スコアボード設定
-scoreboard objectives add Wall dummy
-scoreboard players set #1 Wall 1
-$scoreboard players set install_x Wall $(x)
-$scoreboard players set install_z Wall $(z)
-
 # スポーンチャンク設定 高さは大体100で良いんじゃないかと思う
 $setworldspawn $(x) 100 $(z)
 
