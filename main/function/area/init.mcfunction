@@ -24,4 +24,6 @@ $worldborder set $(range)
 # Wall
 function main:area/wall/init with storage minecraft:setting Wall
 # Obsidian
-function main:area/obsidian/init with storage minecraft:setting
+function main:area/obsidian/init
+# Ceiling
+function main:area/ceiling/init

@@ -20,3 +20,9 @@
 - Pos
   - x : int
   - y : int
+
+### minecraft:celling
+- Pos
+  - x : int
+  - y : int
+  - block : string
