@@ -7,13 +7,11 @@
 # 制限時間設定
 data modify storage setting GameTime set value 30
 
-# 中心座標設定 zは-63d固定
-data modify storage setting CenterPos set value [-900d, -63d, 450d]
-
-# エリア範囲 (半径)
-worldborder set 500
-data modify storage setting AreaRange set value 500
+# 中心座標設定 
+# zは-63d固定
+data modify storage setting Area set value {x:-900d, y:-63d, z:450d, range:500}
 
 # 壁
-# direction: xでx軸方向に生成 yでy軸方向に生成
-data modify storage setting Wall set value {direction:"x"}
+# xでx軸方向に生成 yでy軸方向に生成
+# 範囲は中心座標と同じで良い
+data modify storage setting Wall set value {direction:"z", range:500}

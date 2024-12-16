@@ -14,4 +14,4 @@ function main:setting/set
 function main:time/init
 
 # エリア初期化
-function main:area/init
+function main:area/init with storage minecraft:setting Area
