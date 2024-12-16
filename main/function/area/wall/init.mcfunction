@@ -20,8 +20,8 @@ scoreboard players operation install_end Wall += range Wall
 $scoreboard players operation install_$(direction) Wall -= range Wall
 
 # データ反映
-execute store result storage minecraft:wall InstallPos.x int 1 run scoreboard players get install_x Wall
-execute store result storage minecraft:wall InstallPos.z int 1 run scoreboard players get install_z Wall
+execute store result storage minecraft:wall Install.x int 1 run scoreboard players get install_x Wall
+execute store result storage minecraft:wall Install.z int 1 run scoreboard players get install_z Wall
 
 # 終了フラグ初期化
-scoreboard players set is_finish Wall 0
+scoreboard players set is_finish Wall 1

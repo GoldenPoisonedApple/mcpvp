@@ -8,6 +8,8 @@
 - Wall -> [area/wall/init.mcfunction] [area/wall/main.mcfunction]
   - direction : x or z
 ### minecraft:wall
-- InstallPos
+- Install -> [area/wall/fill.mcfunction]
   - x : int
   - z : int
+  - y : int (fillの高さ)
+  - block : string
