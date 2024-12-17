@@ -33,8 +33,8 @@
 
 ### minecraft:mode
 - Death
-  - hardcore
-  - ticket
-    - a : "@a" or "@a[team=Red]"
-    - b : "@a" or "@a[team=Blue]"
+  - ticket -> [pvp/death/*.mcfunction]
+    - a : "@a" or "Red"
+    - b : "@a" or "Blue"
     - count : int
+  - 

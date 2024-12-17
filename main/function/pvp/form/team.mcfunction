@@ -24,5 +24,9 @@ team join Blue @r[team=]
 team join Red @r[team=]
 team join Blue @r[team=]
 
+# スコアボード用ダミーチーム加入
+team join Red Red
+team join Blue Blue
+
 # データ反映
 data modify storage minecraft:mode Death.ticket merge value {a:"@a[team=Red]", b:"@a[team=Blue]"}
