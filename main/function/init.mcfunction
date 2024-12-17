@@ -1,11 +1,5 @@
 # ワールド設定初期化
-gamerule doDaylightCycle false
-gamerule doWeatherCycle false
-gamerule commandBlockOutput false
-
-# 天気と時間設定
-weather clear
-time set noon
+function main:setting/world
 
 # ゲームの設定値初期化
 function main:setting/set
@@ -15,3 +9,6 @@ function main:time/init
 
 # エリア初期化
 function main:area/init with storage minecraft:setting Area
+
+# イベント初期化
+function main:event/init
