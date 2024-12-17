@@ -5,13 +5,30 @@
 # -------------------------------------
 
 # 制限時間設定
-data modify storage setting GameTime set value 30
+data modify storage minecraft:setting GameTime set value 40
 
 # 中心座標設定 
 # zは-63d固定
-data modify storage setting Area set value {x:-900d, y:-63d, z:450d, range:500}
+data modify storage minecraft:setting Area set value {x:-900d, y:-63d, z:450d, range:500}
 
 # 壁
 # xでx軸方向に生成 yでy軸方向に生成
 # 範囲は中心座標と同じで良い
-data modify storage setting Wall set value {direction:"z"}
+data modify storage minecraft:setting Wall set value {direction:"z"}
+
+# 実装イベント設定 実装しない場合は""にする
+# 夜イベント "function main:event/night/main"
+data modify storage minecraft:setting Event set value {night:"function main:event/night/main"}
+
+
+
+# -------------------------------------
+# イベント設定
+# ここの値を変更し、イベントの設定を変更
+# -------------------------------------
+# 夜イベント
+# readyTime: 開始前の夕方の時間 startTime: 開始時間 endTime: 終了時間 (累計残り時間[分])
+data modify storage minecraft:event Night set value {readyTime:20, startTime:18, endTime:10}
+
+
+
