@@ -23,5 +23,3 @@ $worldborder set $(range)
 # 各初期化
 # Wall
 function main:area/wall/init with storage minecraft:setting Wall
-# Obsidian
-function main:area/obsidian/init
