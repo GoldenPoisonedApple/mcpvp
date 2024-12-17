@@ -1,5 +1,5 @@
 ## 引数
-# minecraft:setting Wall
+# minecraft:event Wall
 # $direction : 方向 "x", "z"
 
 # スコアボード初期化
@@ -14,6 +14,10 @@ execute store result score range Wall run data get storage minecraft:setting Are
 scoreboard players operation range Wall /= #2 Wall
 scoreboard players operation load_x Wall = install_x Wall
 scoreboard players operation load_z Wall = install_z Wall
+# イベントデータ取得
+execute store result score breakTime Wall run data get storage minecraft:event Wall.breakTime
+# フラグ立てる
+scoreboard players set breakFlag Wall 1
 
 # 壁敷設 始点終点設定
 # 終点

@@ -1,13 +1,13 @@
 ## 引数
-# minecraft:setting Wall
+# minecraft:event Wall
 # $direction
 
 ## 運用
-# execute if score is_finish Wall matches 0 run function main:area/wall/main with storage minecraft:setting Wall
+# execute if score is_finish Wall matches 0 run function main:event/wall/main with storage minecraft:event Wall
 
 
 # 建設
-function main:area/wall/fill with storage minecraft:wall Install
+function main:event/wall/fill with storage minecraft:wall Install
 
 # 次建設位置
 $scoreboard players operation install_$(direction) Wall += #1 Wall
@@ -19,4 +19,4 @@ $scoreboard players operation load_$(direction) Wall += #1 Wall
 $execute store result storage minecraft:wall Install.load_$(direction) int 1 run scoreboard players get load_$(direction) Wall
 
 # 終了判定
-$execute if score install_$(direction) Wall > install_end Wall run function main:area/wall/init with storage minecraft:setting Wall
+$execute if score install_$(direction) Wall > install_end Wall run scoreboard players set is_finish Wall 1
