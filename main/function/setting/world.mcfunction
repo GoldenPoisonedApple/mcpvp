@@ -4,7 +4,7 @@ gamerule doWeatherCycle false
 gamerule commandBlockOutput false
 
 # gamemode
-gamemode survival @a
+# gamemode survival @a
 difficulty hard
 
 # other

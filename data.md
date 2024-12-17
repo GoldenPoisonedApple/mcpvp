@@ -5,9 +5,8 @@
   - y : double
   - z : double
   - range : int
-- Wall -> [area/wall/init.mcfunction] [area/wall/main.mcfunction]
-  - direction : x or z
 - Event -> [event/main.mcfunction]
+  - wall : "function main:event/wall/main" or ""
   - night : "function main:event/night/main" or ""
 
 ### minecraft:wall
@@ -20,6 +19,9 @@
   - load_y
 
 ### minecraft:event
+- Wall -> [area/wall/init.mcfunction] [area/wall/main.mcfunction]
+  - direction : x or z
+  - breakTime : minute
 - Night
   - readyTime : minute
   - startTime : minute
