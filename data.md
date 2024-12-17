@@ -15,8 +15,3 @@
   - block : string
   - load_x
   - load_y
-
-### minecraft:obsidian
-- Pos
-  - x : int
-  - y : int
