@@ -34,7 +34,7 @@
 ### minecraft:mode
 - Death
   - ticket -> [pvp/death/*.mcfunction]
-    - a : "@a" or "Red"
-    - b : "@a" or "Blue"
+    - a : "@s" or "Red"
+    - b : "@s" or "Blue"
     - count : int
   - 

@@ -5,7 +5,8 @@
 
 # スコアボード作成
 scoreboard objectives add Death deathCount
-scoreboard objectives add Kill playerKillCount
+# スコアボード削除 キルデス数制以外で適応させないようにするため
+scoreboard objectives remove Kill
 
 # PVPモードの初期化
 # 個人戦 or チーム戦
