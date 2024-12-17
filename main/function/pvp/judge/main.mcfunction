@@ -21,4 +21,4 @@ execute as @a[team=Blue] if score @s Kill matches 1.. run scoreboard players set
 execute as @a if score @s Kill matches 1.. run scoreboard players add @s Ticket 1
 execute as @a if score @s Kill matches 1.. run scoreboard players set @s Kill 0
 
-
+## この先を作る
