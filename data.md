@@ -8,6 +8,10 @@
 - Event -> [event/main.mcfunction]
   - wall : "function main:event/wall/main" or ""
   - night : "function main:event/night/main" or ""
+- Mode
+  - form : "function main:pvp/form/person" or "function main:pvp/form/team"
+  - death : "function main:pvp/death/hardcore" or "function main:pvp/death/ticket" or "function main:pvp/death/deathcount"
+
 
 ### minecraft:wall
 - Install -> [area/wall/fill.mcfunction]
@@ -26,3 +30,11 @@
   - readyTime : minute
   - startTime : minute
   - endTime : minute
+
+### minecraft:mode
+- Death
+  - hardcore
+  - ticket
+    - a : "@a" or "@a[team=Red]"
+    - b : "@a" or "@a[team=Blue]"
+    - count : int

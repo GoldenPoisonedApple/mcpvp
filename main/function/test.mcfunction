@@ -1,1 +1,1 @@
-function main:area/wall/init {direction: "x"}
+title @a title {"text":"Hello, world!"}
