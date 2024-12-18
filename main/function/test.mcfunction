@@ -1,1 +1,3 @@
-function main:area/wall/init {direction: "x"}
+
+title @s title [{"text":"Test","color":"green"}]
+

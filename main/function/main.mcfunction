@@ -1,12 +1,15 @@
 
 # 時間
-function main:time/main
+execute if score is_finish AliveCount matches 0 run function main:time/main
 
 # エリア
-function main:area/main
+execute if score is_finish AliveCount matches 0 run function main:area/main
 
 # イベント
-function main:event/main with storage minecraft:setting Event
+execute if score is_finish AliveCount matches 0 run function main:event/main with storage minecraft:setting Event
 
 # pvp系
-function main:pvp/main
+execute if score is_finish AliveCount matches 0 run function main:pvp/main
+
+# モード
+execute if score is_finish AliveCount matches 0 run function main:mode/main with storage minecraft:setting Mode
