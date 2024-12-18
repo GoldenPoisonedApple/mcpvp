@@ -37,5 +37,3 @@
 - Form -> [mode/death/*.mcfunction]
   - a : "@s" or "Red"
   - b : "@s" or "Blue"
-- Death
-	- aliveCount : int

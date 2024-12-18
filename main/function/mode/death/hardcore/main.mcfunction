@@ -26,3 +26,5 @@ execute if entity @a[team=Blue] if score Red Ticket matches ..0 run function mai
 # 人数カウント
 scoreboard players set rank AliveCount 0
 execute as @a if score @s AliveCount matches 1 run scoreboard players add rank AliveCount 1
+# 個人の場合(一人しか残ってない場合)
+execute as @a[team=] if score rank AliveCount matches 1 if score @s Ticket matches 1.. run function main:mode/form/person/victory

@@ -22,7 +22,7 @@ data modify storage minecraft:setting Event merge value {night:"main:event/night
 ## モード設定
 # 個人戦 : "person"
 # チーム戦 : "team"
-data modify storage minecraft:setting Mode set value {form:"team"}
+data modify storage minecraft:setting Mode set value {form:"person"}
 # ハードコア : "hardcore"
 # チケット制 : "ticket"
 # キルデス数制 : "deathcount"
