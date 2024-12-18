@@ -7,6 +7,7 @@
 # execute as @a run
 
 ## ハードコア制
+scoreboard objectives remove Ticket
 scoreboard objectives add Ticket dummy "ハードコア"
 scoreboard objectives add Hardcore dummy
 # 残基(1)

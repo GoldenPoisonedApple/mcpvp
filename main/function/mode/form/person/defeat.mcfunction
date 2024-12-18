@@ -1,6 +1,10 @@
 ## 運用
 # excute as 対象プレイヤー
 
+
+#ゲーム終了
+scoreboard players set is_finish AliveCount 1
+
 # ゲームモード変更
 gamemode spectator @s
 # 表示

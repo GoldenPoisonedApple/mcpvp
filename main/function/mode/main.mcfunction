@@ -4,8 +4,6 @@
 # $death
 
 # カウント 勝敗判定
-$function main:mode/death/$(death)/main
-
-
+$execute if score is_finish AliveCount matches 0 run function main:mode/death/$(death)/main
 
 
