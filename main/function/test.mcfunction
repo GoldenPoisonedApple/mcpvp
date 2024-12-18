@@ -1,5 +1,3 @@
-## 引数
-# $test
 
-title @a title {"text":"$test","color":"red"}
-$$(test)
+title @s title [{"text":"Test","color":"green"}]
+

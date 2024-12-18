@@ -8,9 +8,11 @@
 - Event -> [event/main.mcfunction]
   - wall : "main:event/wall/main" or "main:nop"
   - night : "main:event/night/main" or "main:nop"
-- Mode
+- Mode -> [mode/init.mcfunction] [mode/main.mcfunction]
   - form : "person" or "team"
   - death : "hardcore" or "ticket" or "deathcount"
+  - defence_red : "red" or "nop"
+  - defence_blue : "blue" or "nop"
 
 
 ### minecraft:wall
@@ -37,3 +39,13 @@
 - Form -> [mode/death/*.mcfunction]
   - a : "@s" or "Red"
   - b : "@s" or "Blue"
+
+### minecraft:defence
+- PosRed -> [mode/defence/red/main.mcfunction]
+  - x : int
+  - y : int
+  - z : int
+- PosBlue -> [mode/defence/blue/main.mcfunction]
+  - x : int
+  - y : int
+  - z : int

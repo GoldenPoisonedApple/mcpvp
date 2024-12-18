@@ -12,6 +12,8 @@ team modify Blue friendlyFire false
 team modify Red nametagVisibility hideForOtherTeams
 team modify Blue nametagVisibility hideForOtherTeams
 
+# チーム分け
+team leave @a
 # ランダムにチーム分け
 team join Red @r[team=]
 team join Blue @r[team=]
