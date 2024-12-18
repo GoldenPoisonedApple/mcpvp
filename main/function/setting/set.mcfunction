@@ -23,10 +23,10 @@ data modify storage minecraft:setting Event merge value {night:"main:event/night
 # 個人戦 : "main:mode/form/person"
 # チーム戦 : "main:mode/form/team"
 data modify storage minecraft:setting Mode set value {form:"main:mode/form/person"}
-# ハードコア : "main:mode/death/hardcore"
-# チケット制 : "main:mode/death/ticket"
-# キルデス数制   : "main:mode/death/deathcount"
-data modify storage minecraft:setting Mode merge value {death:"main:mode/death/ticket"}
+# ハードコア : "hardcore"
+# チケット制 : "ticket"
+# キルデス数制 : "deathcount"
+data modify storage minecraft:setting Mode merge value {death:"ticket"}
 
 # -------------------------------------
 # イベント設定

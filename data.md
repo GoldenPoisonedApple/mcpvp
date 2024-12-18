@@ -9,8 +9,8 @@
   - wall : "main:event/wall/main" or "main:nop"
   - night : "main:event/night/main" or "main:nop"
 - Mode
-  - form : "main:pvp/form/person" or "main:pvp/form/team"
-  - death : "main:pvp/death/hardcore" or "main:pvp/death/ticket" or "main:pvp/death/deathcount"
+  - form : "main:mode/form/person" or "main:mode/form/team"
+  - death : "hardcore" or "ticket" or "deathcount"
 
 
 ### minecraft:wall

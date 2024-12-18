@@ -13,6 +13,4 @@ scoreboard objectives add Kill playerKillCount
 $$(form)
 
 # ハードコア or チケット制 or デス数制
-$execute as @a run $(death) with storage minecraft:mode Form
-
-
+$execute as @a run function main:mode/death/$(death)/init with storage minecraft:mode Form
