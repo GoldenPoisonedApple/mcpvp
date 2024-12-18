@@ -13,5 +13,7 @@ function main:area/init with storage minecraft:setting Area
 # イベント初期化
 function main:event/init
 
-# PVPモード初期化
-function main:pvp/init with storage minecraft:setting Mode
+# pvp初期化
+
+# モード初期化
+function main:mode/init with storage minecraft:setting Mode

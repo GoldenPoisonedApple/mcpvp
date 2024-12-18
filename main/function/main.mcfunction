@@ -10,3 +10,6 @@ function main:event/main with storage minecraft:setting Event
 
 # pvp系
 function main:pvp/main
+
+# モード
+function main:mode/main with storage minecraft:setting Mode
