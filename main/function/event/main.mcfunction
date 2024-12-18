@@ -4,6 +4,6 @@
 # $night
 
 # wallイベント実行
-$$(wall)
+$function $(wall)
 # nightイベント実行
-$$(night)
+$function$(night)

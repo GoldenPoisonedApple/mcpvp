@@ -6,11 +6,11 @@
   - z : double
   - range : int
 - Event -> [event/main.mcfunction]
-  - wall : "function main:event/wall/main" or ""
-  - night : "function main:event/night/main" or ""
+  - wall : "main:event/wall/main" or "main:nop"
+  - night : "main:event/night/main" or "main:nop"
 - Mode
-  - form : "function main:pvp/form/person" or "function main:pvp/form/team"
-  - death : "function main:pvp/death/hardcore" or "function main:pvp/death/ticket" or "function main:pvp/death/deathcount"
+  - form : "main:pvp/form/person" or "main:pvp/form/team"
+  - death : "main:pvp/death/hardcore" or "main:pvp/death/ticket" or "main:pvp/death/deathcount"
 
 
 ### minecraft:wall

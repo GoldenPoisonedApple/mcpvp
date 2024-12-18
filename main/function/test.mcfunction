@@ -1,1 +1,5 @@
-title @a title {"text":"Hello, world!"}
+## 引数
+# $test
+
+title @a title {"text":"$test","color":"red"}
+$$(test)

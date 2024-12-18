@@ -13,20 +13,20 @@ data modify storage minecraft:setting Area set value {x:-900d, y:-63d, z:450d, r
 
 
 ## 実装イベント設定
-# 実装しない場合は""にする
-# 壁イベント "function main:event/wall/main"
-data modify storage minecraft:setting Event set value {wall:"function main:event/wall/main"}
-# 夜イベント "function main:event/night/main"
-data modify storage minecraft:setting Event merge value {night:"function main:event/night/main"}
+# 実装しない場合 "main:nop"
+# 壁イベント "main:event/wall/main"
+data modify storage minecraft:setting Event set value {wall:"main:event/wall/main"}
+# 夜イベント "main:event/night/main"
+data modify storage minecraft:setting Event merge value {night:"main:event/night/main"}
 
 ## モード設定
-# 個人戦 : "function main:pvp/form/person"
-# チーム戦 : "function main:pvp/form/team"
-data modify storage minecraft:setting Mode set value {form:"function main:pvp/form/person"}
-# ハードコア : "function main:pvp/death/hardcore"
-# チケット制 : "function main:pvp/death/ticket"
-# キルデス数制   : "function main:pvp/death/deathcount"
-data modify storage minecraft:setting Mode merge value {death:"function main:pvp/death/ticket"}
+# 個人戦 : "main:pvp/form/person"
+# チーム戦 : "main:pvp/form/team"
+data modify storage minecraft:setting Mode set value {form:"main:pvp/form/person"}
+# ハードコア : "main:pvp/death/hardcore"
+# チケット制 : "main:pvp/death/ticket"
+# キルデス数制   : "main:pvp/death/deathcount"
+data modify storage minecraft:setting Mode merge value {death:"main:pvp/death/ticket"}
 
 # -------------------------------------
 # イベント設定
