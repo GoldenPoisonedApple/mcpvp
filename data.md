@@ -34,6 +34,9 @@
 ### minecraft:mode
 - Ticket
   - count : int
-- Form -> [pvp/death/*.mcfunction]
+- Form -> [mode/death/*.mcfunction]
   - a : "@s" or "Red"
   - b : "@s" or "Blue"
+- Death
+  - main
+  - judge

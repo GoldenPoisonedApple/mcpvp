@@ -20,13 +20,13 @@ data modify storage minecraft:setting Event set value {wall:"main:event/wall/mai
 data modify storage minecraft:setting Event merge value {night:"main:event/night/main"}
 
 ## モード設定
-# 個人戦 : "main:pvp/form/person"
-# チーム戦 : "main:pvp/form/team"
-data modify storage minecraft:setting Mode set value {form:"main:pvp/form/person"}
-# ハードコア : "main:pvp/death/hardcore"
-# チケット制 : "main:pvp/death/ticket"
-# キルデス数制   : "main:pvp/death/deathcount"
-data modify storage minecraft:setting Mode merge value {death:"main:pvp/death/ticket"}
+# 個人戦 : "main:mode/form/person"
+# チーム戦 : "main:mode/form/team"
+data modify storage minecraft:setting Mode set value {form:"main:mode/form/person"}
+# ハードコア : "main:mode/death/hardcore"
+# チケット制 : "main:mode/death/ticket"
+# キルデス数制   : "main:mode/death/deathcount"
+data modify storage minecraft:setting Mode merge value {death:"main:mode/death/ticket"}
 
 # -------------------------------------
 # イベント設定
