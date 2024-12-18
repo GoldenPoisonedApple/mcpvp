@@ -1,6 +1,7 @@
 ## 引数
 # $team : Red or Blue
 
+
 #ゲーム終了
 scoreboard players set is_finish AliveCount 1
 
