@@ -32,9 +32,8 @@
   - endTime : minute
 
 ### minecraft:mode
-- Death
-  - ticket -> [pvp/death/*.mcfunction]
-    - a : "@s" or "Red"
-    - b : "@s" or "Blue"
-    - count : int
-  - 
+- Ticket
+  - count : int
+- Form -> [pvp/death/*.mcfunction]
+  - a : "@s" or "Red"
+  - b : "@s" or "Blue"

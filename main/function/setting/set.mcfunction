@@ -47,4 +47,4 @@ data modify storage minecraft:event Night set value {readyTime:20, startTime:18,
 # -------------------------------------
 # チケット制
 # count: チケット数
-data modify storage minecraft:mode Death.ticket set value {count:40}
+data modify storage minecraft:mode Ticket set value {count:40}

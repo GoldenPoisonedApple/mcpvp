@@ -1,13 +1,15 @@
 ## 引数
-# minecraft:mode Death.ticket
+# minecraft:mode Form
 # $a
 # $b
-# $count
+
+## 運用
+# execute as @a run
 
 ## チケット制
 scoreboard objectives add Ticket dummy "残りチケット"
 # チケット数を設定
-$execute as @a run scoreboard players set $(a) Ticket $(count)
-$execute as @a run scoreboard players set $(b) Ticket $(count)
+$execute store result score $(a) Ticket run data get storage minecraft:mode Ticket.count 1
+$execute store result score $(a) Ticket run data get storage minecraft:mode Ticket.count 1
 # チケット数を表示
 scoreboard objectives setdisplay sidebar Ticket

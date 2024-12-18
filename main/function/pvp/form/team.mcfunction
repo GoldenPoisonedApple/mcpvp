@@ -29,4 +29,4 @@ team join Red Red
 team join Blue Blue
 
 # データ反映
-data modify storage minecraft:mode Death.ticket merge value {a:"@a[team=Red]", b:"@a[team=Blue]"}
+data modify storage minecraft:mode Form set value {a:"@a[team=Red]", b:"@a[team=Blue]"}
