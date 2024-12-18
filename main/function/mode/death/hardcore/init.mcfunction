@@ -8,7 +8,7 @@
 
 ## ハードコア制
 scoreboard objectives remove Ticket
-scoreboard objectives add Ticket dummy "ハードコア"
+scoreboard objectives add Ticket dummy "ハードコア残り人数"
 scoreboard objectives add Hardcore dummy
 # 残基(1)
 scoreboard players set @a Hardcore 1
