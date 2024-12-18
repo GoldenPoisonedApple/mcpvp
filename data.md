@@ -9,7 +9,7 @@
   - wall : "main:event/wall/main" or "main:nop"
   - night : "main:event/night/main" or "main:nop"
 - Mode
-  - form : "main:mode/form/person" or "main:mode/form/team"
+  - form : "person" or "team"
   - death : "hardcore" or "ticket" or "deathcount"
 
 
@@ -38,5 +38,4 @@
   - a : "@s" or "Red"
   - b : "@s" or "Blue"
 - Death
-  - main
-  - judge
+	- aliveCount : int

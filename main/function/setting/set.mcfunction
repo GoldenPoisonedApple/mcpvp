@@ -20,9 +20,9 @@ data modify storage minecraft:setting Event set value {wall:"main:event/wall/mai
 data modify storage minecraft:setting Event merge value {night:"main:event/night/main"}
 
 ## モード設定
-# 個人戦 : "main:mode/form/person"
-# チーム戦 : "main:mode/form/team"
-data modify storage minecraft:setting Mode set value {form:"main:mode/form/person"}
+# 個人戦 : "person"
+# チーム戦 : "team"
+data modify storage minecraft:setting Mode set value {form:"person"}
 # ハードコア : "hardcore"
 # チケット制 : "ticket"
 # キルデス数制 : "deathcount"
