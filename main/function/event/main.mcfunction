@@ -4,7 +4,7 @@
 # $night
 
 # startイベント実行
-execute if score time Time matches 1 run function main:event/start/main
+execute if score time Time = first_time Time run function main:event/start
 
 # wallイベント実行
 $function $(wall)
