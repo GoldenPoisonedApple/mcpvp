@@ -11,6 +11,8 @@ data modify storage minecraft:setting GameTime set value 40
 # zは-63d固定
 data modify storage minecraft:setting Area set value {x:-900d, y:-63d, z:450d, range:500}
 
+# 高高度 これより上を高高度とみなす 150で良い
+data modify storage minecraft:setting Altitude set value 150
 
 ## 実装イベント設定
 # 実装しない場合 "main:nop"
