@@ -14,6 +14,6 @@ execute if score Red Ticket = Blue Ticket run function main:mode/form/team/draw
 scoreboard players set #max Ticket 0
 scoreboard players operation #max Ticket > @a Ticket
 # 勝利
-execute as @a if score @s Ticket >= #max Ticket run function main:mode/form/person/victory
+execute as @a[team=] if score @s Ticket >= #max Ticket run function main:mode/form/person/victory
 # 敗北
-execute as @a unless score @s Ticket = #max Ticket run function main:mode/form/person/defeat
+execute as @a[team=] unless score @s Ticket >= #max Ticket run function main:mode/form/person/defeat

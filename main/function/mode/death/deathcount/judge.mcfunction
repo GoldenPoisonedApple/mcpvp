@@ -14,7 +14,7 @@ execute if score Red KillDeathCount = Blue KillDeathCount run function main:mode
 scoreboard players set #max KillDeathCount 0
 scoreboard players operation #max KillDeathCount > @a KillDeathCount
 # 勝利
-execute as @a if score @s KillDeathCount >= #max KillDeathCount run function main:mode/form/person/victory
+execute as @a[team=] if score @s KillDeathCount >= #max KillDeathCount run function main:mode/form/person/victory
 # 敗北
-execute as @a unless score @s KillDeathCount = #max KillDeathCount run function main:mode/form/person/defeat
+execute as @a[team=] unless score @s KillDeathCount >= #max KillDeathCount run function main:mode/form/person/defeat
 
