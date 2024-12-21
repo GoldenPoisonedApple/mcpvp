@@ -7,8 +7,10 @@
 scoreboard objectives add Death deathCount
 scoreboard objectives add Kill playerKillCount
 scoreboard objectives add AliveCount dummy
-scoreboard objectives add TotalDeath deathCount
-scoreboard objectives add TotalKill playerKillCount
+scoreboard objectives add TotalDeath deathCount "デス数"
+scoreboard objectives add TotalKill playerKillCount "キル数"
+# スコアボード表示
+scoreboard objectives setdisplay list TotalKill
 # 初期化
 scoreboard players set @a Death 0
 scoreboard players set @a Kill 0

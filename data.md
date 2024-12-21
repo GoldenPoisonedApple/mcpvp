@@ -13,8 +13,7 @@
   - death : "hardcore" or "ticket" or "deathcount"
   - defence_red : "red" or "nop"
   - defence_blue : "blue" or "nop"
-- Altitude
-  - high : 130程度
+- Altitude : 130程度
 
 
 ### minecraft:wall
