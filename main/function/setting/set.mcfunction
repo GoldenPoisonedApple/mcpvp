@@ -66,5 +66,6 @@ data modify storage minecraft:mode Ticket set value {count:40}
 # 位置設定
 # 守備位置はビーコンの位置を指定
 # PosRed: Redチームの守備位置 PosBlue: Blueチームの守備位置
-data modify storage minecraft:defence PosRed set value {x:-901, y:-63, z:451}
-data modify storage minecraft:defence PosBlue set value {x:-902, y:-63, z:452}
+# -888 84 441
+data modify storage minecraft:defence PosRed set value {x:-888, y:84, z:441}
+data modify storage minecraft:defence PosBlue set value {x:-890, y:84, z:441}
