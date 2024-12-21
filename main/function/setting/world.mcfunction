@@ -2,7 +2,7 @@
 gamerule doDaylightCycle false
 gamerule doWeatherCycle false
 gamerule commandBlockOutput false
-gamerule spawnRadius 1
+gamerule spawnRadius 0
 
 # gamemode
 # gamemode survival @a
