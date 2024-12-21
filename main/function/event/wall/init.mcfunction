@@ -34,7 +34,7 @@ $scoreboard players operation load_$(direction) Wall -= #16 Wall
 execute store result storage minecraft:wall Install.x int 1 run scoreboard players get install_x Wall
 execute store result storage minecraft:wall Install.z int 1 run scoreboard players get install_z Wall
 execute store result storage minecraft:wall Install.load_x int 1 run scoreboard players get load_x Wall
-execute store result storage minecraft:wall Install.load_y int 1 run scoreboard players get load_z Wall
+execute store result storage minecraft:wall Install.load_z int 1 run scoreboard players get load_z Wall
 
 # 強制読み込み全削除
 forceload remove all
