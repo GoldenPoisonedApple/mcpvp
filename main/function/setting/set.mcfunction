@@ -8,7 +8,7 @@
 data modify storage minecraft:setting GameTime set value 40
 
 # 中心座標設定 
-# zは-63d固定
+# yは-63d固定
 data modify storage minecraft:setting Area set value {x:-900d, y:-63d, z:450d, range:500}
 
 # 高高度 これより上を高高度とみなす 通常130
@@ -44,7 +44,7 @@ data modify storage minecraft:setting Mode merge value {defence_red:"red", defen
 # ここの値を変更し、イベントの設定を変更
 # -------------------------------------
 # 壁イベント
-# direction: xでx軸方向に生成 yでy軸方向に生成
+# direction: xでx軸方向に生成 zでz軸方向に生成
 # breakTime: 壁を壊す時間 (累計残り時間[分])
 data modify storage minecraft:event Wall set value {direction:"x", breakTime:30}
 # 夜イベント
