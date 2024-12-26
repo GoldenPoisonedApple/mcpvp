@@ -25,7 +25,7 @@ scoreboard players set is_finish AliveCount 0
 
 # PVPモードの初期化
 # 個人戦 or チーム戦
-$function main:mode/form/$(form)/init
+$execute as @a run function main:mode/form/$(form)/init
 
 # ハードコア or チケット制 or デス数制
 $execute as @a run function main:mode/death/$(death)/init with storage minecraft:mode Form
