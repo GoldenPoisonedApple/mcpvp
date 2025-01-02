@@ -1,7 +1,3 @@
-scoreboard objectives add Main dummy
-scoreboard players set is_start Main 0
-
-
 # ゲームの設定値初期化
 function main:setting/set
 
