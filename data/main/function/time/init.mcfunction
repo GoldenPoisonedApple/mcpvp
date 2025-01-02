@@ -13,10 +13,6 @@ scoreboard players operation time Time *= #tick_min Time
 execute store result score time_min Time run data get storage setting GameTime
 scoreboard players set time_sec Time 0
 
-# 始まりの時間計算
-scoreboard players operation first_time Time = time Time
-scoreboard players remove first_time Time 1
-
 # ボスバー
 bossbar add time "時間"
 bossbar set time color white

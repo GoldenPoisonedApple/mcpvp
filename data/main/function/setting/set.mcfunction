@@ -30,7 +30,7 @@ data modify storage minecraft:setting Mode set value {form:"team"}
 # ハードコア : "hardcore"
 # チケット制 : "ticket"
 # キルデス数制 : "deathcount"
-data modify storage minecraft:setting Mode merge value {death:"hardcore"}
+data modify storage minecraft:setting Mode merge value {death:"deathcount"}
 # 防衛設定
 # ※※※※※※   個人戦では守備なし : "nop", "nop" のみ適用可能 ※※※※※※
 # 攻守戦 : {defence_red:"red", defence_blue:"blue"}

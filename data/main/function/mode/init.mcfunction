@@ -21,7 +21,7 @@ scoreboard players set @a AliveCount 1
 scoreboard players set rank AliveCount 0
 execute as @a run scoreboard players add rank AliveCount 1
 # 終了フラグ
-scoreboard players set is_finish AliveCount 0
+scoreboard players set is_finish AliveCount 1
 
 # PVPモードの初期化
 # 個人戦 or チーム戦
