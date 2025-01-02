@@ -9,6 +9,7 @@ scoreboard objectives add Kill playerKillCount
 scoreboard objectives add AliveCount dummy
 scoreboard objectives add TotalDeath deathCount "デス数"
 scoreboard objectives add TotalKill playerKillCount "キル数"
+scoreboard objectives add AliveTime dummy
 # スコアボード表示
 scoreboard objectives setdisplay list TotalKill
 # 初期化
@@ -16,6 +17,8 @@ scoreboard players set @a Death 0
 scoreboard players set @a Kill 0
 scoreboard players set @a TotalDeath 0
 scoreboard players set @a TotalKill 0
+# 生存時間は0から始めるとスタートと被るため1から
+scoreboard players set @a AliveTime 1
 # 人数初期化
 scoreboard players set @a AliveCount 1
 scoreboard players set rank AliveCount 0

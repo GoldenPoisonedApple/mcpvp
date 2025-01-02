@@ -5,6 +5,10 @@
 # $defence_red
 # $defence_blue
 
+# 生存時間
+scoreboard players add @a AliveTime 1
+execute as @a if score @s Death matches 1.. run scoreboard players set @s AliveTime 0
+
 # カウント 勝敗判定
 $function main:mode/death/$(death)/main
 
