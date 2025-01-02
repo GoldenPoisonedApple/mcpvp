@@ -5,7 +5,6 @@ gamerule commandBlockOutput false
 gamerule spawnRadius 0
 
 # gamemode
-# gamemode survival @a
 difficulty hard
 
 # other
